@@ -1,0 +1,84 @@
+# editor files:
+
+.*.swp
+
+# intermediate build output:
+
+*.o
+*.lo
+
+# autotools
+
+AUTHORS
+INSTALL
+NEWS
+README
+
+.deps/
+.libs/
+
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.*
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+m4/
+missing
+stamp-h1
+.dirstamp
+
+# libraries
+
+docs/speak_lib.h
+
+libespeak.a
+libespeak.la
+libespeak.so*
+
+# programs
+
+platforms/*/espeak-phoneme-data
+espeak
+espeakedit
+speak
+
+# Linux/Source distribution files
+
+praat-mod/
+
+ChangeLog.txt
+License.txt
+ReadMe
+Makefile
+
+# espeak-data
+
+dictsource/*_extra
+dictsource/dict_log
+dictsource/dict_phonemes
+dictsource/ru_listx
+dictsource/zh_listx
+dictsource/zhy_list
+
+phsource/compile_prog_log
+phsource/compile_report
+phsource/error_intonation
+phsource/error_log
+phsource/phonemes.stamp
+
+espeak-data/config
+espeak-data/dictsource
+espeak-data/phsource
+espeak-data/*_dict
+espeak-data/mbrola_ph/*_phtrans
+espeak-data/intonations
+espeak-data/phondata
+espeak-data/phondata-manifest
+espeak-data/phonindex
+espeak-data/phontab
