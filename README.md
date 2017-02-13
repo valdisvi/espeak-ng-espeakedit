@@ -11,18 +11,20 @@ consumed by espeak are compatible.
 
 ## Build Dependencies
 
-On Ubuntu 16.04 LTS "Xenial Xerus", it requires the following packages
+Solve dependencies for [eSpeakNG](https://github.com/espeak-ng/espeak-ng/#dependencies)
+
+On Ubuntu 16.04 LTS "Xenial Xerus", it requires the following additional packages
 to run:
+
  * `libwxgtk3.0`
  * `libportaudio2`
  * `sox`
  * `libwxgtk3.0-dev`
  * `libportaudio-dev`
 
-This binary is can compiled to use V19 of the PortAudio library.  If you have
-V18 you will need to recompile espeakedit, after copying `portaudio18.h` to
+This binary is can compiled to use `V19` of the PortAudio library.  If you have
+`V18` you will need to recompile espeakedit, after copying `portaudio18.h` to
 replace the original `portaudio.h` file in the src directory.
-
 
 ## Building
 
@@ -35,7 +37,11 @@ be built via the standard autotools commands:
 
 ## Documentation
 
-Not yet.  Look at (http://espeak.sourceforge.net/editor.html)
+Look at:
+
+ * http://espeak.sourceforge.net/editor.html
+ * http://espeak.sourceforge.net/editor_if.html
+ 
 
 ## Data
 
