@@ -5,9 +5,11 @@ This is just temporary [eSpeak NG fork](https://github.com/espeak-ng/espeak-ng/)
 espeakedit is a GUI frontend which allows one to prepare and compile phoneme
 data for the [eSpeak NG](https://github.com/espeak-ng/espeak-ng/) speech synthesizer.
 
-Do be careful that the versions of dictionary data produced by espeakedit and
-consumed by espeak are compatible.
+Ensure that versions of dictionary data produced by espeakedit and
+consumed by espeak/espeak-ng are compatible.
 
+Note, that there is ongoing effort to develop modern version of [EspeakNG Java Editor](https://github.com/valdisvi/espeak-ng-jeditor)
+which is not ready jet, but contributors are welcome.
 
 ## Build Dependencies
 
