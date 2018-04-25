@@ -15,14 +15,9 @@ which is not ready jet, but contributors are welcome.
 
 Solve dependencies for [eSpeakNG](https://github.com/espeak-ng/espeak-ng/#dependencies)
 
-On Ubuntu 16.04 LTS "Xenial Xerus", it requires the following additional packages
-to run:
+On Ubuntu 16.04 LTS "Xenial Xerus", it requires to install following additional packages
 
- * `libwxgtk3.0`
- * `libportaudio2`
- * `sox`
- * `libwxgtk3.0-dev`
- * `libportaudio-dev`
+sudo apt install libportaudio2 sox libwxgtk3.0-dev portaudio19-dev
 
 This binary is can compiled to use `V19` of the PortAudio library.  If you have
 `V18` you will need to recompile espeakedit, after copying `portaudio18.h` to
@@ -35,7 +30,7 @@ be built via the standard autotools commands:
 
 	$ ./autogen.sh
 	$ ./configure --prefix=/usr
-	$ make
+	$ make -B
 
 ## Documentation
 
