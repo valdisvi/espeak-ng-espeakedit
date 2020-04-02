@@ -11,6 +11,21 @@ consumed by espeak/espeak-ng are compatible.
 Note, that there is ongoing effort to develop modern version of [EspeakNG Java Editor](https://github.com/valdisvi/espeak-ng-jeditor)
 which is not ready jet, but contributors are welcome.
 
+## Compiled binary for 64-bit ...buntu
+
+Install `espeak-ng` package using standard package manager to fulfill runtime dependencies.
+Downloaded precompiled binary from [here](https://github.com/valdisvi/espeak-ng-espeakedit/blob/master/bin/espeakedit?raw=true)
+make it executable and run it.
+
+## Data
+
+To run espeakedit you ned symbolic link to `espeak-data` folder.
+E.g. `espeak-data -> ~/mycoderepo/espeak-ng/espeak-data/`
+
+Directory `phsource` contains the master phonemes file `phonemes`, additional
+phoneme files for various languages, and all the sound files needed to compile
+the phoneme data into `espeak-data/phondata`, `phontab`, `phonindex`.
+
 ## Build Dependencies
 
 Solve dependencies for [eSpeakNG](https://github.com/espeak-ng/espeak-ng/#dependencies)
@@ -38,16 +53,6 @@ Look at:
 
  * http://espeak.sourceforge.net/editor.html
  * http://espeak.sourceforge.net/editor_if.html
- 
-
-## Data
-
-To run espeakedit you ned symbolic link to `espeak-data` folder.
-E.g. `espeak-data -> code/espeak-ng/espeak-data/`
-
-Directory `phsource` contains the master phonemes file `phonemes`, additional
-phoneme files for various languages, and all the sound files needed to compile
-the phoneme data into `espeak-data/phondata`, `phontab`, `phonindex`.
 
 ## Links
 
